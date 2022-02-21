@@ -5,7 +5,9 @@ Dette er en midlertidig README-fil.
 Repoet inneholder kildekode til hele den eskperimentelle pipelinen til artikkelen som skal submittes.
 
 1.0 - Data preprocessing 
+
   1.1 - 
+  
   1.2 - 
   
 2.0 - Random Forest pipeline (inkl. på test set)
