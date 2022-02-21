@@ -4,11 +4,11 @@ Dette er en midlertidig README-fil.
 
 Repoet inneholder kildekode til hele den eskperimentelle pipelinen til artikkelen som skal submittes.
 
-1.0 - Data preprocessing 
+1.0 - Data preprocessing (i.e. subjects selection, linking ADNIMERGE with other .csv and FreeSurfer)
 
-  1.1 - 
+  1.1 - Checking bl.csv / long.csv
   
-  1.2 - 
+  1.2 - Checking bl.csv / long.csv
   
 2.0 - Random Forest pipeline (inkl. på test set)
 
