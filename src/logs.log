@@ -11181,3 +11181,33 @@
                                   weights=None)]],
          verbose=False)
 2022-02-22 15:05:24,011:INFO:save_model() successfully completed......................................
+2022-02-22 15:07:49,655:INFO:Initializing load_model()
+2022-02-22 15:07:49,655:INFO:load_model(model_name=/Users/ingridrye/Desktop/conversion_mci/results/3.0-251121_best_model_accuracy_top5, platform=None, authentication=None, verbose=True)
+2022-02-22 15:07:56,236:INFO:Initializing predict_model()
+2022-02-22 15:07:56,236:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['Subgroup_', 'fold_nb',
+                                                       'Usage_', 'PTGENDER'],
+                                      ml_usecase='classification',
+                                      target='Subgroup_num_')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagor...
+                                                                 random_state=1138)),
+                                              ('Bagging_2',
+                                               BaggingClassifier(base_estimator=LinearDiscriminantAnalysis(),
+                                                                 random_state=1138)),
+                                              ('Bagging_3',
+                                               BaggingClassifier(base_estimator=AdaBoostClassifier(random_state=1138),
+                                                                 random_state=1138)),
+                                              ('Bagging_4',
+                                               BaggingClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                                                   random_state=1138),
+                                                                 random_state=1138))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-02-22 15:07:56,236:INFO:Checking exceptions
+2022-02-22 15:07:56,236:INFO:Preloading libraries
