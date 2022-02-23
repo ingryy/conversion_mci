@@ -11241,3 +11241,153 @@
                                   n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
 2022-02-22 15:12:57,694:INFO:Checking exceptions
 2022-02-22 15:12:57,694:INFO:Preloading libraries
+2022-02-23 16:09:17,214:INFO:Initializing load_model()
+2022-02-23 16:09:17,215:INFO:load_model(model_name=/Users/ingridrye/Desktop/conversion_mci/results/3.0-251121_best_blended_accuracy_top5, platform=None, authentication=None, verbose=True)
+2022-02-23 16:09:21,335:INFO:Initializing predict_model()
+2022-02-23 16:09:21,336:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['Subgroup_', 'fold_nb',
+                                                       'Usage_', 'PTGENDER'],
+                                      ml_usecase='classification',
+                                      target='Subgroup_num_')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagor...
+                                                                 random_state=1138)),
+                                              ('Bagging_2',
+                                               BaggingClassifier(base_estimator=LinearDiscriminantAnalysis(),
+                                                                 random_state=1138)),
+                                              ('Bagging_3',
+                                               BaggingClassifier(base_estimator=AdaBoostClassifier(random_state=1138),
+                                                                 random_state=1138)),
+                                              ('Bagging_4',
+                                               BaggingClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                                                   random_state=1138),
+                                                                 random_state=1138))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-02-23 16:09:21,336:INFO:Checking exceptions
+2022-02-23 16:09:21,336:INFO:Preloading libraries
+2022-02-23 16:11:29,910:INFO:Initializing load_model()
+2022-02-23 16:11:29,910:INFO:load_model(model_name=/Users/ingridrye/Desktop/conversion_mci/results/3.0-251121_best_blended_accuracy_top5, platform=None, authentication=None, verbose=True)
+2022-02-23 16:11:33,214:INFO:Initializing predict_model()
+2022-02-23 16:11:33,214:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['Subgroup_', 'fold_nb',
+                                                       'Usage_', 'PTGENDER'],
+                                      ml_usecase='classification',
+                                      target='Subgroup_num_')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagor...
+                                                                 random_state=1138)),
+                                              ('Bagging_2',
+                                               BaggingClassifier(base_estimator=LinearDiscriminantAnalysis(),
+                                                                 random_state=1138)),
+                                              ('Bagging_3',
+                                               BaggingClassifier(base_estimator=AdaBoostClassifier(random_state=1138),
+                                                                 random_state=1138)),
+                                              ('Bagging_4',
+                                               BaggingClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                                                   random_state=1138),
+                                                                 random_state=1138))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-02-23 16:11:33,214:INFO:Checking exceptions
+2022-02-23 16:11:33,214:INFO:Preloading libraries
+2022-02-23 16:16:28,199:INFO:Initializing load_model()
+2022-02-23 16:16:28,204:INFO:load_model(model_name=/Users/ingridrye/Desktop/conversion_mci/results/3.0-251121_best_blended_accuracy_top5, platform=None, authentication=None, verbose=True)
+2022-02-23 16:16:31,157:INFO:Initializing predict_model()
+2022-02-23 16:16:31,158:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['Subgroup_', 'fold_nb',
+                                                       'Usage_', 'PTGENDER'],
+                                      ml_usecase='classification',
+                                      target='Subgroup_num_')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagor...
+                                                                 random_state=1138)),
+                                              ('Bagging_2',
+                                               BaggingClassifier(base_estimator=LinearDiscriminantAnalysis(),
+                                                                 random_state=1138)),
+                                              ('Bagging_3',
+                                               BaggingClassifier(base_estimator=AdaBoostClassifier(random_state=1138),
+                                                                 random_state=1138)),
+                                              ('Bagging_4',
+                                               BaggingClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                                                   random_state=1138),
+                                                                 random_state=1138))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-02-23 16:16:31,158:INFO:Checking exceptions
+2022-02-23 16:16:31,158:INFO:Preloading libraries
+2022-02-23 16:31:20,854:INFO:Initializing load_model()
+2022-02-23 16:31:20,855:INFO:load_model(model_name=/Users/ingridrye/Desktop/conversion_mci/results/3.0-251121_best_blended_accuracy_top5, platform=None, authentication=None, verbose=True)
+2022-02-23 16:31:24,846:INFO:Initializing predict_model()
+2022-02-23 16:31:24,846:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['Subgroup_', 'fold_nb',
+                                                       'Usage_', 'PTGENDER'],
+                                      ml_usecase='classification',
+                                      target='Subgroup_num_')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagor...
+                                                                 random_state=1138)),
+                                              ('Bagging_2',
+                                               BaggingClassifier(base_estimator=LinearDiscriminantAnalysis(),
+                                                                 random_state=1138)),
+                                              ('Bagging_3',
+                                               BaggingClassifier(base_estimator=AdaBoostClassifier(random_state=1138),
+                                                                 random_state=1138)),
+                                              ('Bagging_4',
+                                               BaggingClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                                                   random_state=1138),
+                                                                 random_state=1138))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-02-23 16:31:24,846:INFO:Checking exceptions
+2022-02-23 16:31:24,846:INFO:Preloading libraries
+2022-02-23 16:46:07,445:INFO:Initializing load_model()
+2022-02-23 16:46:07,446:INFO:load_model(model_name=/Users/ingridrye/Desktop/conversion_mci/results/best_blended_accuracy_top5, platform=None, authentication=None, verbose=True)
+2022-02-23 16:46:10,476:INFO:Initializing predict_model()
+2022-02-23 16:46:10,476:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['Subgroup_', 'fold_nb',
+                                                       'Usage_'],
+                                      ml_usecase='classification',
+                                      target='Subgroup_num_')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels...
+                                                                 random_state=1138)),
+                                              ('Bagging_2',
+                                               BaggingClassifier(base_estimator=LinearDiscriminantAnalysis(),
+                                                                 random_state=1138)),
+                                              ('Bagging_3',
+                                               BaggingClassifier(base_estimator=AdaBoostClassifier(random_state=1138),
+                                                                 random_state=1138)),
+                                              ('Bagging_4',
+                                               BaggingClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                                                   random_state=1138),
+                                                                 random_state=1138))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-02-23 16:46:10,476:INFO:Checking exceptions
+2022-02-23 16:46:10,476:INFO:Preloading libraries
